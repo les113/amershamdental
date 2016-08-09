@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8" />
-	<title>TEST CHANGE Amersham Hill Dental Clinic - NHS and private dentist</title>
+	<title>Amersham Hill Dental Clinic - NHS and private dentist</title>
 	<meta name="description" content="Amersham Hill Dental Clinic, NHS and private dentist on Amersham Hill, High Wycombe, Buckinghamshire.">
 	<?php include('header.php') ?>
 
