@@ -63,8 +63,8 @@ body#contact #menu .contact a
 
 /** two column page **/
 .twocolumn {
-    -webkit-column-count: 2; /* Chrome, Safari, Opera */
-    -moz-column-count: 2; /* Firefox */
+    -webkit-column-count: 2; /* max number of columns */
+    -moz-column-count: 2; 
     column-count: 2;
 }
 .twocolumn {
@@ -77,11 +77,16 @@ body#contact #menu .contact a
     -moz-column-rule: 1px outset #ccc; /* Firefox */
     column-rule: 1px outset #ccc;
 }
+.twocolumn {
+  -webkit-column-width: 480px; /* min width of column */
+     -moz-column-width: 480px;
+          column-width: 480px;
+}
 .newcolumn  /** force a break in column **/
 {
    -webkit-column-break-before:always; /* Chrome, Safari, Opera */
 	-moz-column-break-before:always; /* Firefox */
-	column-break-before:always;
+	break-before:column;
 }
 
 /** team bios **/
@@ -95,7 +100,7 @@ body#contact #menu .contact a
 .teamMembers{padding-top:30px;}
 .teamMemberPhoto {float:left;margin-left:20px;}
 .teamMemberPhoto img {width:160px;height:213px;}
-.teamMemberName {font-size:14px;text-align:center;margin:-20px 10px 10px 10px;}
+.teamMemberName {font-size:14px;text-align:center;margin:0px 10px 10px 10px;}
 .teamMemberBio {float:left;margin-left:20px;margin-top:20px;width:340px;}
 .teamMemberQual {color:#666;font-size:12px;text-align:center;}
 .gdcNo {color:#666;font-size:12px;}
@@ -224,7 +229,6 @@ body#contact #menu .contact a
 		-moz-column-count: 1; /* Firefox */
 		column-count: 1;
 	}
-	.teamMemberBio {width:160px;}
 	.featureBox {min-height:137px;}
 	.appointments {min-height:160px;	padding-top:10px;}
 	.appointments h2{padding-top:10px;}

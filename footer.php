@@ -64,9 +64,6 @@
 	});
 </script>
 
-<!-- our team page -->
-<script src="includes/ourteam.js" type="text/javascript" ></script>
-
 <!-- enquiry form validate -->	
 <script type="text/javascript" src="includes/easyValidate/js/jquery.easyValidate.js"></script>
 <script>

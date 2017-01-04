@@ -65,7 +65,7 @@
 			<p><strong>For more information please <a href="http://media.dpas.co.uk/brochures/Gzmjfzeo/4050CarePlan.pdf" target="_blank">click here</a>.</strong></p>
 		</section>
 		
-		<section class="newcolumn">			
+		<section>			
 			<h2>NHS</h2>
 			<p>NHS treatments are banded into three categories. If you are not exempt from charges, you should pay for each course of treatment you receive.</p>
 			
