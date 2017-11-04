@@ -60,22 +60,22 @@ var data = {
                 },	
     
 			teamMember7:{
-				name:'Dr Michael Souter',
+				name:'Dr R Lavelle',
 				position:'Foundation Dentist',
 				qualification: '',
-				biography:'Michael qualified in 2016 at King\'s College London and joined us in September 2016.',
-				gdcnumber:'GDC No: 265065',
-                imgSrc:'images/michaelsouter.jpg',
+				biography:'Qualified at University of Birmingham in 2017 and joined us on 1st September 2017',
+				gdcnumber:'GDC No: 271033',
+                imgSrc:'images/rlavelle.jpg',
                 class:'teamMemberPhoto'
                 },
     
 			teamMember8:{
-				name:'Dr Ramandeep Sandhu',
+				name:'Dr L Burgess',
 				position:'Foundation Dentist',
 				qualification: '',
-				biography:'Ramandeep qualified in 2016 at Cardiff and joined us in September 2016.',
-				gdcnumber:'GDC No: 265342',
-                imgSrc:'images/ramandeepsandhu.jpg',
+				biography:'Qualified at Cardiff University in 2017 and joined us 1st September 2017',
+				gdcnumber:'GDC No: 271811',
+                imgSrc:'images/lburgess.jpg',
                 class:'teamMemberPhoto'
                 },	
     
@@ -118,6 +118,16 @@ var data = {
 				gdcnumber:'',
                 imgSrc:'images/reception.jpg',
                 class:'teamMemberPhotoWide'               
+			},
+				
+			teamMember13:{
+				name:'Danial Jafari',
+				position:'Trainee Dental Nurse',
+				qualification: '',
+				biography:'',
+				gdcnumber:'',
+                imgSrc:'images/djafari.jpg',
+                class:'teamMemberPhoto'
                 }
 				
         }; 
