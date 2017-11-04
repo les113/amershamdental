@@ -12,7 +12,7 @@
 		+ entryHTML.imgSrc +'" alt="'
 		+ entryHTML.name +'" /><h2 class="teamMemberName hideChrome" style="margin-top:10px">'
 		+ entryHTML.name +'<br/>'
-		+ entryHTML.position +'</h2></div><div class="teamMemberBio" ><h2 class="teamMemberName" ><strong>'
+		+ entryHTML.position +'</h2></div><div class="teamMemberBio" ><h2 class="teamMemberName-hidemob" ><strong>'
 		+ entryHTML.name +'<br/>'
 		+ entryHTML.position +'</strong></h2><p class="teamMemberQual">'
 		+ entryHTML.qualification +'</p><p>'

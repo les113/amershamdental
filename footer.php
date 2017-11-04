@@ -53,9 +53,11 @@
 	</div>
 </footer>
 
+<!-- jquery -->
+<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>	
+		
 <!-- To Top scripts -->
 <script src="includes/smoothscroll.js" type="text/javascript" ></script>
-<script src="http://jqueryjs.googlecode.com/files/jquery-1.3.js" type="text/javascript"></script>
 <script src="includes/jquery.easing.1.3.js" type="text/javascript"></script>
 <script src="includes/jquery.ui.totop.js" type="text/javascript"></script>
 <script type="text/javascript">
@@ -90,6 +92,20 @@ $(function(){
 function openBrWindow(theURL,winName,features) { //v2.0
   window.open(theURL,winName,features);
 }	
+</script>
+
+<!-- Mobile Specific -->
+<script type="text/javascript">
+	var browser			= navigator.userAgent;
+	var browserRegex	= /(Android|BlackBerry|IEMobile|Nokia|iP(ad|hone|od)|Opera M(obi|ini))/;
+	var isMobile		= false;
+	if(browser.match(browserRegex)) {
+		isMobile			= true;
+		addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+		function hideURLbar(){
+			window.scrollTo(0,1);
+		}
+	}
 </script>
 	
 <!-- statcounter -->

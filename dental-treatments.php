@@ -55,9 +55,11 @@
 			<p>We offer high quality techniques including veneers, crowns and bridges in order to achieve this.</p>
 			<p>Modern techniques are increasingly using metal free materials that can help to give excellent life-like results.</p>
 			
+			<!-- removed march 2017 
 			<h3>Tooth Whitening</h3>
 			<p>This is a common procedure in general dentistry. It is a simple and safe procedure to lighten an existing colour of your teeth. We use two methods at the Clinic; one is providing patient with a home bleaching kit (which is supervised) and the other one is Zoom Whitening, which is done in the dental chair instantly.</p>
 			<br/><br/><br/><br/>
+			-->
 		</section>
 			
 		<section>			

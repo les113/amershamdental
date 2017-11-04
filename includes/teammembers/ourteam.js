@@ -8,12 +8,12 @@
 		// on page load hide bios
 		$('.teamMemberBio').hide();	
 		// open first bio
-		$('.teamMemberBio').first().addClass('bioactive').slideToggle(750);
+		$('.teamMemberBio').first().addClass('bioactive').slideToggle(1000);
 		// reveal bio when image clicked
 		$('.teamMemberName, .teamMemberPhoto img, .teamMemberPhotoWide img').click(function(e){
 			e.preventDefault(); /* prevent default action of jumping to top of page on click event*/
-			$('.bioactive').hide(750);
-			$(this).parent().next('.teamMemberBio').addClass('bioactive').slideToggle(750);
+			$('.bioactive').hide(1000);
+			$(this).parent().next('.teamMemberBio').addClass('bioactive').slideToggle(1000);
 		});
 	});
 	

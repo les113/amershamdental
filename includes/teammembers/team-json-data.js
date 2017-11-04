@@ -64,7 +64,7 @@ var data = {
 				position:'Foundation Dentist',
 				qualification: '',
 				biography:'Michael qualified in 2016 at King\'s College London and joined us in September 2016.',
-				gdcnumber:'',
+				gdcnumber:'GDC No: 265065',
                 imgSrc:'images/michaelsouter.jpg',
                 class:'teamMemberPhoto'
                 },
@@ -74,7 +74,7 @@ var data = {
 				position:'Foundation Dentist',
 				qualification: '',
 				biography:'Ramandeep qualified in 2016 at Cardiff and joined us in September 2016.',
-				gdcnumber:'',
+				gdcnumber:'GDC No: 265342',
                 imgSrc:'images/ramandeepsandhu.jpg',
                 class:'teamMemberPhoto'
                 },	

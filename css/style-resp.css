@@ -98,15 +98,15 @@ body#contact #menu .contact a
 /** version2 **/
 .teamMember {min-height:280px; float:left;cursor:pointer;}
 .teamMembers{padding-top:30px;}
-.teamMemberPhoto {float:left;margin-left:20px;}
-.teamMemberPhoto img {width:160px;height:213px;}
-.teamMemberName {font-size:14px;text-align:center;margin:0px 10px 10px 10px;}
+.teamMemberPhoto {float:left;margin-right:20px;}
+.teamMemberPhoto img {width:160px;height:220px;object-fit:cover;}
+.teamMemberName, .teamMemberName-hidemob {font-size:14px;text-align:center;margin:0px 10px 10px 10px;}
 .teamMemberBio {float:left;margin-left:20px;margin-top:20px;width:340px;}
 .teamMemberQual {color:#666;font-size:12px;text-align:center;}
 .gdcNo {color:#666;font-size:12px;}
 .teamMember a{text-decoration:none;}
-.teamMemberPhotoWide {float:left;margin-left:20px;}
-.teamMemberPhotoWide img {width:340px;height:213px;}
+.teamMemberPhotoWide {float:left;margin-right:20px;}
+.teamMemberPhotoWide img {width:340px;height:220px;object-fit:cover;}
 
 /* Safari hacks */
 @media screen and (-webkit-min-device-pixel-ratio:0) {
@@ -208,17 +208,29 @@ body#contact #menu .contact a
 	
 /** responsive adjustments **/
 
-/***** Phone (portrait 300px) *****/
+/***** Phone (portrait) *****/
 @media only screen and (max-width: 479px) {
 	#logo img{width:100%;}
-	#hero {display:none;}
+	#hero {display:none;}	
+	
+	/* team members */
+	.teamMemberPhoto img {width:100%;height:auto;}
+	.teamMemberPhotoWide img {width:100%;height:auto;}
+	.teamMemberBio {width:100%;margin:0;}
+	.teamMemberName-hidemob {display:none;}
 }
 
-/***** Phone (landscape 420px) *****/
+/***** Phone (landscape) *****/
 @media only screen and (min-width: 480px) and (max-width: 767px) {
 	#logo img{width:100%;}	
 	.heroTxt {font-size:12px;line-height:22px;top:20px;left:210px;}
 	.nhsprivateImg {display:none;}
+	
+	/* team members */
+	.teamMemberPhoto img {width:240px;height:auto;margin:0 108px;}
+	.teamMemberPhotoWide img {width:100%;height:auto;}
+	.teamMemberBio {width:100%;margin:0;}
+	.teamMemberName-hidemob {display:none;}
 	}
 
 /***** Phone up to 767px *****/
@@ -233,9 +245,10 @@ body#contact #menu .contact a
 	.appointments {min-height:160px;	padding-top:10px;}
 	.appointments h2{padding-top:10px;}
 	.infoBox {min-height:240px;}
+
 }
 
-/***** Tablet (Smaller than 959px) *****/
+/***** Tablet (768px to 959px) *****/
 @media only screen and (min-width: 768px) and (max-width: 959px) {
 	.heroTxt {font-size:18px;line-height:22px;top:60px;left:380px;}
 	.nhsprivateImg {width:100px !important;margin-top:20px !important;}
@@ -246,7 +259,7 @@ body#contact #menu .contact a
 	.infoBox {min-height:244px;}
 }
 
-/***** Screen Bigger than 960px *****/
+/***** desktop *****/
 @media only screen and (min-width:1200px) {
 	.heroTxt {font-size:32px;line-height:34px;top:80px;left:520px;}
 	.featureBox {min-height:216px;}

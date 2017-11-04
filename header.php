@@ -8,23 +8,6 @@
 		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
 
-	<!-- jquery -->
-	<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
-		
-	<!-- Mobile Specific -->
-	<script type="text/javascript">
-		var browser			= navigator.userAgent;
-		var browserRegex	= /(Android|BlackBerry|IEMobile|Nokia|iP(ad|hone|od)|Opera M(obi|ini))/;
-		var isMobile		= false;
-		if(browser.match(browserRegex)) {
-			isMobile			= true;
-			addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
-			function hideURLbar(){
-				window.scrollTo(0,1);
-			}
-		}
-	</script>
-
 	<!-- google fonts -->
 	<link href='http://fonts.googleapis.com/css?family=Maven+Pro:500' rel='stylesheet' type='text/css'>	
 	<link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>

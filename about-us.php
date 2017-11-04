@@ -35,6 +35,7 @@
 		<p>We offer a wide range of dental care which includes <a href="dental-care-plans.php">NHS, Independent, Denplan and DPAS</a> (monthly payment plans). Please ask our friendly reception staff for more information.</p>
 		<p>Our aim is good dental health for you and your family through <a href="dental-treatments.php">preventive dentistry</a> to avoid problems such as tooth decay and gum disease. We believe regular dental examinations are an important part of preventive care. This way we can keep a close eye on what is happening in your mouth and potentially identify early stages of conditions such as oral cancer which could be life threatening.</p>
 		<p>All patient information is treated with the utmost confidentiality and protected by the Data Protection Act.</p>
+		<p>Amersham Hill Dental Clinic are registered with the <a href="http://www.cqc.org.uk/" target="_blank">Care Quality Commision.</a></p>
 	</div>
 	<div class="grid_4">
 		<img src="images/partners.jpg" alt="Practice partners, Dr Max Suleiman and Dr Husein Raghavji" style="width:100%; margin-top:80px;"/>
