@@ -78,7 +78,7 @@
 			<h6>Band 3</h6>			
 			<p>This covers everything listed in Bands 1 and 2 above, and any other treatment option which involves laboratory work such as dentures, crowns, bridges.</p>
 			
-			<p><strong>For more information please refer to the NHS website <a href="www.nhs.uk/NHSEngland/AboutNHSservices/dentists/" target="_blank">here</a>.</strong></p>
+			<p><strong>For more information please refer to the NHS website <a href="http://www.nhs.uk/NHSEngland/AboutNHSservices/dentists/" target="_blank">here</a>.</strong></p>
 		
 		</section>
 	</div>
