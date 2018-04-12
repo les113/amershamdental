@@ -48,7 +48,7 @@
 			
 			<h3>Independent Dentistry</h3>
 			<p>This is then name we give to our services for patients who want an improved range of treatment with the comfort and flexibility that independent contract offers. We are of the opinion that our independent dentistry offers the best &#39;value for money&#39; dental service in the High Wycombe area.</p>
-			<p><strong>Please download our independent fees guide <a href="independent-fees.pdf" target="_blank">here</a>.</strong></p>
+			<p><strong>Please download our independent fees guide <a href="includes/independent-fees.pdf" target="_blank">here</a>.</strong></p>
 	
 			<!--
 			<h3>Practice Plan</h3>
