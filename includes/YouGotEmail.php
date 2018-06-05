@@ -69,10 +69,13 @@ https://www.kaplankomputing.com/blog/tutorials/recaptcha-php-demo-tutorial/
 // Author: Brent R. Matzelle <bmatzelle@yahoo.com>
 // License: LGPL, see LICENSE
 // //////////////////////////////////////////////////
+
 $SendAddress = "ahdc@live.co.uk"; //YOUR EMAIL ADDRESS, where you want to receive the email
 $mail_subject = "Amersham Hill Dental Center Website Enquiry"; //Subject for email that you get
+
 // Following is the heading that you would receive with this message in your email within the body
 $MyContents = "You have an enquiry from your website."; // if you wish to put an extra content in email, aprat from what is submited by user
+$IgnoreFields[] = "g-recaptcha-response"; //Add list of fields, variables, here separated by comma,to ignore/avoid them in sending by email 
 $PutPostData = 1; // set to 1,if want to receive the posted data in your email, if form action method is "POST"
 $PutGetData = 0; // set to 1,if want to receive the get data in your email, if form action method is "GET"
 $PutEnvData = 0; //set to 1, if you wish to receive environment data like, HOSTNAME,MACHTYPE,SHELL etc about the server on which you are running this script  
@@ -152,6 +155,7 @@ function validate_email($email)
     function CheckNFormat($var, $value)
     {
         Global $IgnoreFields, $DataLoop; 
+        // if variable is not in the ignore list
         if (!in_array($var, $IgnoreFields))
         { 
             // format the display
@@ -2355,5 +2359,6 @@ function validate_email($email)
             exit;
         } 
     } 
+	}
     ?>
 
