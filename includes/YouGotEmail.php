@@ -1,4 +1,40 @@
 <?php ob_start();
+
+/* 
+recaptcha 
+https://www.kaplankomputing.com/blog/tutorials/recaptcha-php-demo-tutorial/
+*/
+	$sender_name = stripslashes($_POST["name"]);
+	$sender_email = stripslashes($_POST["email"]);
+	$sender_message = stripslashes($_POST["message"]);
+	$response = $_POST["g-recaptcha-response"];
+
+	$url = 'https://www.google.com/recaptcha/api/siteverify';
+
+	$data = array(
+		'secret' => '6LcWzlIUAAAAAC3ZOF1vtzUHpak65jKLIHKHu1Qi',
+		'response' => $_POST["g-recaptcha-response"]
+	);
+
+	$options = array(
+		'http' => array (
+			'method' => 'POST',
+			'content' => http_build_query($data)
+		)
+	);
+
+	$context  = stream_context_create($options);
+	$verify = file_get_contents($url, false, $context);
+	$captcha_success=json_decode($verify);
+
+	if ($captcha_success->success==false) {
+		//echo "<p>Sorry, try again</p>";
+		header("Location: http://www.wycombe-dentists.com/formfail.php");
+		exit;
+
+	} else if ($captcha_success->success==true) {
+		//echo "<p>You are not not a bot!</p>";
+
 /**
  */
 /* "You Got Email", a PHP-FormToEmail: Script to send an Email From Data submitted on Form with an Attachments*/
@@ -37,7 +73,6 @@ $SendAddress = "ahdc@live.co.uk"; //YOUR EMAIL ADDRESS, where you want to receiv
 $mail_subject = "Amersham Hill Dental Center Website Enquiry"; //Subject for email that you get
 // Following is the heading that you would receive with this message in your email within the body
 $MyContents = "You have an enquiry from your website."; // if you wish to put an extra content in email, aprat from what is submited by user
-$IgnoreFields[] = "SEND_BUTTON"; //Add list of fields, variables, here separated by comma,to ignore/avoid them in sending by email 
 $PutPostData = 1; // set to 1,if want to receive the posted data in your email, if form action method is "POST"
 $PutGetData = 0; // set to 1,if want to receive the get data in your email, if form action method is "GET"
 $PutEnvData = 0; //set to 1, if you wish to receive environment data like, HOSTNAME,MACHTYPE,SHELL etc about the server on which you are running this script  
@@ -117,7 +152,6 @@ function validate_email($email)
     function CheckNFormat($var, $value)
     {
         Global $IgnoreFields, $DataLoop; 
-        // if varibale is not in the ignore list
         if (!in_array($var, $IgnoreFields))
         { 
             // format the display
@@ -2321,6 +2355,5 @@ function validate_email($email)
             exit;
         } 
     } 
-
     ?>
 

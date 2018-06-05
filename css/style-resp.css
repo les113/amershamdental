@@ -123,6 +123,14 @@ body#contact #menu .contact a
 /* #enquiry_form {border:solid 1px orange; padding:20px;margin:10px;} */
 #enquiry_form .submitbutton {padding-left:115px;}
 #thanksnotice{display:none;}
+.g-recaptcha {margin:20px 0 20px 115px;}
+
+@media only screen and (max-width: 479px) {
+	#enquiry_form input, #enquiry_form select, #enquiry_form textarea {margin:5px 0;float:none;width:100%;}
+	.g-recaptcha {margin:20px 0 20px 0;}
+	#enquiry_form .submitbutton {padding-left:0px;}
+}
+
 
 /** footer starts **/
 

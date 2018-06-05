@@ -30,7 +30,8 @@
 <section class="row" style="min-height:460px;" >
 	<div class="grid_7" >		
 		<h1><u>Form submission failed</u></h1>
-		<p>Sorry there has been a problem submitting your form. Please <a href="#" onclick="history.go(-1);return false;">try again</a>. </p>
+		<p>Sorry there has been a problem submitting your form.</p>
+		<p>Please <a href="#" onclick="history.go(-1);return false;">try again</a>.</p>
 		<p>If the problem persists please telephone us on <?php include('includes/telno.php') ?>.</p>			
 	</div>
 	

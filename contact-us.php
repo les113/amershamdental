@@ -5,6 +5,7 @@
 	<title>Contact Amersham Hill Dental Clinic</title>
 	<meta name="description" content="">
 	<?php include('header.php') ?>
+	<script src='https://www.google.com/recaptcha/api.js'></script>
 
 <body id="contact">
 
@@ -42,12 +43,14 @@
 			 <label>Telephone: *</label>
 				<input type="text" name="tel" maxlength="16" class="required" /><br/>
 			  
-			 <label>Email: * </label> 
+			 <label>Email: *</label> 
 				<input type="text" name="email" class="required email" /><br/>
-				
-			<label>Message: * </label> 
+			
+			<label>Message: *</label> 
 				<textarea name="message" id="message" cols="30" rows="5" class="required" ></textarea><br/> 
-				
+
+			<div class="g-recaptcha" data-sitekey="6LcWzlIUAAAAAEBI2du443l9I8sZrTyi1EGb0iC1"></div>
+			
 			<div class="submitbutton">
 				<input name="btnSubmit" type="submit" value = "Submit" />
 			</div>
