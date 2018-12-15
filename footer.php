@@ -9,7 +9,7 @@
 					<p>Monday: 8.00am - 8.00pm<br/>
 					Tuesday: 8.30am - 4.30pm<br/>
 					Wednesday: 8.00am - 7.00pm<br/>
-					Thursday: 8.00am - 5.00pm<br/>
+					Thursday: 8.00am - 4.00pm<br/>
 					Friday: 8.00am - 2.00pm<br/>
 					Sat & Sun: closed</p>
 				</div>
