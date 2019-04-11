@@ -8,7 +8,7 @@
 		// on page load hide bios
 		$('.teamMemberBio').hide();	
 		// open first bio
-		$('.teamMemberBio').first().addClass('bioactive').slideToggle(1000);
+		//$('.teamMemberBio').first().addClass('bioactive').slideToggle(1000);
 		// reveal bio when image clicked
 		$('.teamMemberName, .teamMemberPhoto img, .teamMemberPhotoWide img').click(function(e){
 			e.preventDefault(); /* prevent default action of jumping to top of page on click event*/

@@ -29,16 +29,6 @@ var data = {
                 class:'teamMemberPhoto'
                 },
 				
-			teamMember4:{
-				name:'Dr Emily Howden',
-				position:'Associate Dentist',
-				qualification: 'BDS (Ncle)',
-				biography:'Emily qualified at Newcastle Dental Hospital in 1999. She is an experienced foundation dental trainer and has a certificate in Medical Education. Her special interests are preventive and aesthetic dentistry.',
-				gdcnumber:'GDC No: 76445',
-                imgSrc:'images/howden.jpg',
-                class:'teamMemberPhoto'
-                },
-				
 			teamMember5:{
 				name:'Dr Karen Button',
 				position:'Associate Dentist',
@@ -57,30 +47,9 @@ var data = {
 				gdcnumber:'GDC No: 211336',
                 imgSrc:'images/khatra.jpg',
                 class:'teamMemberPhoto'
-                },	
-    
-			teamMember7:{
-				name:'Dr R Lavelle',
-				position:'Foundation Dentist',
-				qualification: '',
-				biography:'Qualified at University of Birmingham in 2017 and joined us on 1st September 2017',
-				gdcnumber:'GDC No: 271033',
-                imgSrc:'images/rlavelle.jpg',
-                class:'teamMemberPhoto'
-                },
-    
-			teamMember8:{
-				name:'Dr L Burgess',
-				position:'Foundation Dentist',
-				qualification: '',
-				biography:'Qualified at Cardiff University in 2017 and joined us 1st September 2017',
-				gdcnumber:'GDC No: 271811',
-                imgSrc:'images/lburgess.jpg',
-                class:'teamMemberPhoto'
-                },	
-    
+                },	 
         
-			teamMember9:{
+			teamMember7:{
 				name:'Marilyn Howlett',
 				position:'Dental Hygenist',
 				qualification: '',
@@ -89,18 +58,8 @@ var data = {
                 imgSrc:'images/howlett.jpg',
                 class:'teamMemberPhoto'
                 },
-    
-            teamMember10:{
-				name:'Janet Sharpe',
-				position:'Practice Manager',
-				qualification: '',
-				biography:'Janet started her dental career as a dental nurse and after few years decided to move over to do reception duties, which she very much enjoyed. She was then promoted to practice manager and over the years continued to ensure the smooth running of the Clinic.',
-				gdcnumber:'',
-                imgSrc:'images/sharpe.jpg',
-                class:'teamMemberPhoto'
-                },
-    
-            teamMember11:{
+
+            teamMember8:{
 				name:'Our Nursing Team',
 				position:'',
 				qualification: '',
@@ -110,7 +69,7 @@ var data = {
                 class:'teamMemberPhotoWide'
                 },
     
-            teamMember12:{
+            teamMember9:{
 				name:'Our Reception Staff',
 				position:'',
 				qualification: '',
@@ -119,15 +78,15 @@ var data = {
                 imgSrc:'images/reception.jpg',
                 class:'teamMemberPhotoWide'               
 			},
-				
-			teamMember13:{
-				name:'Danial Jafari',
-				position:'Trainee Dental Nurse',
+			
+			teamMember10:{
+				name:'Janet Sharpe',
+				position:'Practice Manager',
 				qualification: '',
-				biography:'',
+				biography:'Janet started her dental career as a dental nurse and after few years decided to move over to do reception duties, which she very much enjoyed. She was then promoted to practice manager and over the years continued to ensure the smooth running of the Clinic.',
 				gdcnumber:'',
-                imgSrc:'images/djafari.jpg',
+                imgSrc:'images/sharpe.jpg',
                 class:'teamMemberPhoto'
-                }
+			}
 				
         }; 
