@@ -62,7 +62,7 @@
 			<h3>Dental Care Plan</h3>
 			<p>This is an in-house capitation scheme that offers similar benefits to Denplan.
 			For some patients this may be more cost effective. The assessment fee for this is &pound;38.00 and you will then be advised regarding the best way forwards.</p>
-			<p><strong>For more information please <a href="http://media.dpas.co.uk/brochures/Gzmjfzeo/4050CarePlan.pdf" target="_blank">click here</a>.</strong></p>
+			<p><strong>For more information please <a href="includes/dental-care-plan.pdf" target="_blank">click here</a>.</strong></p>
 		</section>
 		
 		<section>			

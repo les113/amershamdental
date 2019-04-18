@@ -34,6 +34,10 @@
 					<div class="socialicons"><a href="#" target="_blank"><span class="twitter"></span></a></div>
 					<div class="socialicons"><a href="#" target="_blank"><span class="linkedin"></span></a></div>
 					-->
+					
+					<h4>Policies</h4>
+					<p><a href="includes/privacy-policy.pdf" target="_blank">Privacy Policy</a><br/>
+					<a href="includes/complaints-policy.pdf" target="_blank">Complaints Policy</a></p>
 				</div>
 			</div>
 		</div>
