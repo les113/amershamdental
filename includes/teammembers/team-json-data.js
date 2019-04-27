@@ -54,8 +54,8 @@ var data = {
 				name:'Dr Krishaan Vekaria',
 				position:'Foundation Dentist',
 				qualification: '',
-				biography:'',
-				gdcnumber:'',
+				biography:'Krishaan qualified in 2018 at King\'s College London.',
+				gdcnumber:'GDC No: 278722',
                 imgSrc:'images/KrishaanVekaria.jpg',
                 class:'teamMemberPhoto'
                 },
@@ -64,8 +64,8 @@ var data = {
 				name:'Dr Emma Foord',
 				position:'Foundation Dentist',
 				qualification: '',
-				biography:'',
-				gdcnumber:'',
+				biography:'Emma qualified in 2018 at Newcastle.',
+				gdcnumber:'GDC No: 277942',
                 imgSrc:'images/EmmaFoord.jpg',
                 class:'teamMemberPhoto'
                 },
