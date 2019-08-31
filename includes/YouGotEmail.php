@@ -93,15 +93,15 @@ $image_max_width = "1400"; //this validates height of image in case of image upl
 $image_max_height = "1400"; //this validates width of image in case of image upload
 $DeleteUploadFiles = "0"; // Do you wish to delete the uploaded files or wish to keep on server?.If you wish to keep the file set to 1 or set to 0
 // If you wish to send cc to some other email addresses, give here seperated by comma
-$SendCCTo[] = "";
+$SendCCTo[] = "janet.sharpe@hotmail.com";
 // if you wish to send BCC to some other user, add list by comma separated
-$SendBCCTo[] = "";
+$SendBCCTo[] = "enquiry@lamtha2.co.uk";
 // Following is the subject of email that you would receive
-$EmailFromAddress = "";
-// Following is from anme for email sent
+$EmailFromAddress = "noreply@wycombe-dentists.com";
+// Following is from name for email sent
 $EmailFromName = "";
 // following is the reply address that you wish to have in your send email
-$ReplyToAddress = "";
+$ReplyToAddress = "noreply@wycombe-dentists.com";
 // Following is the reply name for email sent
 $ReplyToName = "";
 // Set following variable to 1, if you wish to receive email in html format, prefer this.
