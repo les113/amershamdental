@@ -49,14 +49,14 @@ var data = {
                 imgSrc:'images/JappreetKhatra.jpg',
                 class:'teamMemberPhoto'
                 },	 
- 
+ /*
 			teamMember7:{
 				name:'Dr Krishaan Vekaria',
 				position:'Foundation Dentist',
 				qualification: '',
 				biography:'Krishaan qualified in 2018 at King\'s College London.',
 				gdcnumber:'GDC No: 278722',
-                imgSrc:'images/KrishaanVekaria.jpg',
+                imgSrc:'',
                 class:'teamMemberPhoto'
                 },
 
@@ -66,10 +66,10 @@ var data = {
 				qualification: '',
 				biography:'Emma qualified in 2018 at Newcastle.',
 				gdcnumber:'GDC No: 277942',
-                imgSrc:'images/EmmaFoord.jpg',
+                imgSrc:'',
                 class:'teamMemberPhoto'
                 },
-				
+*/				
 			teamMember9:{
 				name:'Marilyn Howlett',
 				position:'Dental Hygenist',
