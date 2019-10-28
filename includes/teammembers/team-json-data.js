@@ -49,28 +49,38 @@ var data = {
                 imgSrc:'images/JappreetKhatra.jpg',
                 class:'teamMemberPhoto'
                 },	 
- /*
+
 			teamMember7:{
-				name:'Dr Krishaan Vekaria',
+				name:'Dr Lovepreet Heer ',
 				position:'Foundation Dentist',
-				qualification: '',
-				biography:'Krishaan qualified in 2018 at King\'s College London.',
-				gdcnumber:'GDC No: 278722',
-                imgSrc:'',
+				qualification: 'BDS',
+				biography:'Lovepreet qualified from Barts and the London school of Medicine and Dentistry in 2019.',
+				gdcnumber:'',
+                imgSrc:'images/Lovepreet.jpg',
                 class:'teamMemberPhoto'
                 },
 
 			teamMember8:{
-				name:'Dr Emma Foord',
+				name:'Dr Fatima Niaza',
 				position:'Foundation Dentist',
-				qualification: '',
-				biography:'Emma qualified in 2018 at Newcastle.',
+				qualification: 'BDS(Hons) (UCLAN) BSc Hons (Lond)',
+				biography:'Fatima qualified from the University of Central Lancashire in 2019. She also has a BSc in Biomedical science from University College London.',
 				gdcnumber:'GDC No: 277942',
-                imgSrc:'',
+                imgSrc:'images/fatima.jpg',
                 class:'teamMemberPhoto'
                 },
-*/				
+			
 			teamMember9:{
+				name:'Suwaibah Ali',
+				position:'Trainee dental nurse',
+				qualification: '',
+				biography:'',
+				gdcnumber:'',
+                imgSrc:'images/Swaibah.jpg',
+                class:'teamMemberPhoto'
+                },
+				
+			teamMember10:{
 				name:'Marilyn Howlett',
 				position:'Dental Hygenist',
 				qualification: '',
@@ -80,7 +90,7 @@ var data = {
                 class:'teamMemberPhoto'
                 },
 
-            teamMember10:{
+            teamMember11:{
 				name:'Our Nursing Team',
 				position:'',
 				qualification: '',
@@ -89,7 +99,7 @@ var data = {
                 imgSrc:'images/NursingTeam.jpg',
                 class:'teamMemberPhotoWide'
                 },
-    
+ /*   
             teamMember11:{
 				name:'Our Reception Staff',
 				position:'',
@@ -99,6 +109,7 @@ var data = {
                 imgSrc:'images/reception.jpg',
                 class:'teamMemberPhotoWide'               
 			},
+*/
 			
 			teamMember12:{
 				name:'Janet Sharpe',
@@ -108,6 +119,27 @@ var data = {
 				gdcnumber:'',
                 imgSrc:'images/JanetSharpe.jpg',
                 class:'teamMemberPhoto'
+			},
+			
+			teamMember13:{
+				name:'Nicki Stevens',
+				position:'Reception staff',
+				qualification: '',
+				biography:'.',
+				gdcnumber:'',
+                imgSrc:'images/Nicki.jpg',
+                class:'teamMemberPhoto'
+			},
+			
+			teamMember14:{
+				name:'Dee',
+				position:'Reception staff &amp; <br>Dental Nurse',
+				qualification: '',
+				biography:'',
+				gdcnumber:'',
+                imgSrc:'images/Dee.jpg',
+                class:'teamMemberPhoto'
 			}
+			
 				
         }; 
