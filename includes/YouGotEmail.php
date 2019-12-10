@@ -95,7 +95,7 @@ $DeleteUploadFiles = "0"; // Do you wish to delete the uploaded files or wish to
 // If you wish to send cc to some other email addresses, give here seperated by comma
 $SendCCTo[] = "janet.sharpe@hotmail.com";
 // if you wish to send BCC to some other user, add list by comma separated
-$SendBCCTo[] = "enquiry@lamtha2.co.uk";
+$SendBCCTo[] = "";
 // Following is the subject of email that you would receive
 $EmailFromAddress = "noreply@wycombe-dentists.com";
 // Following is from name for email sent
