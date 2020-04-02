@@ -139,5 +139,6 @@ $(document).ready(function(){
 	});
 });
 </script>
+
 <!-- statcounter -->
 <?php include('includes/statcounter.php') ?>

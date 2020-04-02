@@ -5,17 +5,14 @@
 	<title>Contact form submission failed</title>
 	<meta name="description" content="">
 	<meta name="robots" content="noindex"/>
-	<?php include('header.php') ?>
+	<?php include('head.php') ?>
 
 <body id="contact">
 
 <!-- internet explorer countdown -->
 <!--[if lt IE 8]><div style='clear: both; height: 112px; padding:0; position: relative;'><a href="http://www.theie7countdown.com/ie-users-info"><img src="http://www.theie7countdown.com/assets/badge_iecountdown.png" border="0" height="112" width="348" alt="" /></a></div><![endif]-->
 
-<header>
-	<?php include('includes/logo.php') ?>
-	<?php include('includes/nav.php') ?>
-</header>
+<?php include('header.php') ?>
 
 <div class="rowspace"></div>
 
