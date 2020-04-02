@@ -17,16 +17,13 @@
 </header>
 
 <div class="rowspace"></div>
+
+<?php include('covid-19.php') ?>			
+	
+<div class="rowspace"></div>
 	
 <div id="hero">
 	<div class="row">
-	<!--
-	<div class="grid_12 heroImg">
-		<div style="background-color: #ccc; height:120px; padding:5px;">
-			<h1>This is a header</h1>
-		</div>
-	</div>
-	-->
 		<div class="grid_12 heroImg" >			
 			<img src="images/heroimg.jpg" class="" alt="Main image with mision statement"/>
 			<div class="heroTxt">

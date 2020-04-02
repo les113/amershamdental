@@ -112,5 +112,32 @@ function openBrWindow(theURL,winName,features) { //v2.0
 	}
 </script>
 	
+	
+<script>
+// test jquery
+/*
+window.onload = function() {
+    if (window.jQuery) {  
+        // jQuery is loaded  
+        alert("Yeah!");
+    } else {
+        // jQuery is not loaded
+        alert("Doesn't Work");
+    }
+}
+*/
+</script>
+
+<!-- covid-19 -->
+<script>
+$(document).ready(function(){
+	$('.covid19Msg').hide();
+	
+	$('.readCovid19').click(function() {
+		//alert( "Handler for .click() called." );
+		$('.covid19Msg').toggle(500);
+	});
+});
+</script>
 <!-- statcounter -->
 <?php include('includes/statcounter.php') ?>
