@@ -12,16 +12,8 @@
 <!--[if lt IE 8]><div style='clear: both; height: 112px; padding:0; position: relative;'><a href="http://www.theie7countdown.com/ie-users-info"><img src="http://www.theie7countdown.com/assets/badge_iecountdown.png" border="0" height="112" width="348" alt="" /></a></div><![endif]-->
 
 <header>
-<div class="row">
-	<div class="grid_12" >
-		<div id="logo" >
-			<a href="http://www.wycombe-dentists.com"><img src="images/logo.png" alt="logo" /></a>
-		</div>
-	</div>
-</div>
-
-<?php include('includes/nav.php') ?>
-
+	<?php include('includes/logo.php') ?>
+	<?php include('includes/nav.php') ?>
 </header>
 
 <div class="rowspace"></div>
