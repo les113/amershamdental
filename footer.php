@@ -131,13 +131,16 @@ window.onload = function() {
 <!-- covid-19 -->
 <script>
 $(document).ready(function(){
+	// setup on page load
+	$('.openCovid19').show();
 	$('.covid19Msg').hide();
-	
+	// open
 	$('.openCovid19').click(function() {
 		//alert( "Handler for .click() called." );
 		$('.covid19Msg, .closeCovid19').show(500);
 		$('.openCovid19').hide();
 	});
+	// close
 	$('.closeCovid19').click(function() {
 		$('.covid19Msg, .closeCovid19').hide(500);
 		$('.openCovid19').show();
