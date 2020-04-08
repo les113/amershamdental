@@ -133,9 +133,14 @@ window.onload = function() {
 $(document).ready(function(){
 	$('.covid19Msg').hide();
 	
-	$('.readCovid19').click(function() {
+	$('.openCovid19').click(function() {
 		//alert( "Handler for .click() called." );
-		$('.covid19Msg').toggle(500);
+		$('.covid19Msg, .closeCovid19').show(500);
+		$('.openCovid19').hide();
+	});
+	$('.closeCovid19').click(function() {
+		$('.covid19Msg, .closeCovid19').hide(500);
+		$('.openCovid19').show();
 	});
 });
 </script>
