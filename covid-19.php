@@ -2,7 +2,6 @@
 	<div class="offset_2 grid_8"   style="text-align:center;">			
 		<h1>COVID-19 Update 30th March 2020</h1>
 		<h2>Amersham Hill Dental Clinic - Dental Emergencies Only</h2>
-		<p><a href="#" class="openCovid19" style="display:none;">Read More</a></p>
 		<div class="covid19Msg">
 			<h3>Following guidelines from NHS England and the British Dental Association we have closed the practice temporarily. We will be operating a remote emergency service only.<h3>
 			<p><strong>If you have a dental emergency, please phone</strong></p>
@@ -11,7 +10,7 @@
 			<a href="https://www.nhs.uk/conditions/coronavirus-covid-19" target="_blank">www.nhs.uk/conditions/coronavirus-covid-19</a></p>
 			<p>From everyone in the team at Amersham Hill Dental Clinic, we would like to thank you for you co operation and support during this difficult period. We will continue to keep you updated on our website.</p>
 		</div>
-		<p><a href="#" class="closeCovid19" style="display:none;">Close</a></p>
+		<p><a href="#" class="openCovid19" style="display:none;">Read More</a></p>
 	</div>
 </div>	
 
