@@ -6,7 +6,7 @@ var data = {
 				qualification: 'Phd  BDS (Lond) MSc (Implant Dentistry) MFGDP (UK)',
 				biography:'Max, a Senior Partner at the Clinic, qualified at the Royal Dental Hospital in 1980. He has an MSc and PhD in Implant Dentistry. His practice is restricted to implant dentistry and oral surgery. He is also a Consultant Oral Surgeon at Guy\'s Hospital London.',
 				gdcnumber:'GDC No: 54886',
-                imgSrc:'images/MaxSuleiman.jpg',
+                imgSrc:'images/staff/MaxSuleiman.jpg',
                 class:'teamMemberPhoto'
                 },
 				
@@ -16,7 +16,7 @@ var data = {
 				qualification: 'BDS (Ncle)',
 				biography:'Husein, a Senior Partner at the Clinic, qualified at Newcastle Dental Hospital in 1982. His clinical interests are extensive and he has particular interest in endodontics and cosmetic dentistry. He is also an experienced foundation dental trainer and has a certificate in Dental and Medical Education.',
 				gdcnumber:'GDC No: 56603',
-                imgSrc:'images/HuseinRaghavji.jpg',
+                imgSrc:'images/staff/HuseinRaghavji.jpg',
                 class:'teamMemberPhoto'
                 },
 				
@@ -26,7 +26,7 @@ var data = {
 				qualification: 'BDS (Bristol)',
 				biography:'Anna qualified at Bristol Dental School in 1993. She has special interest in periodontology and restorative dentistry.',
 				gdcnumber:'GDC No: 67000',
-                imgSrc:'images/AnnaAgathangelou.jpg',
+                imgSrc:'images/staff/AnnaAgathangelou.jpg',
                 class:'teamMemberPhoto'
                 },
 				
@@ -36,7 +36,7 @@ var data = {
 				qualification: 'BDS (Ncle)',
 				biography:'Karen qualified at Newcastle Dental Hospital in 1987. She has a keen interest in children\'s dentistry and helping individuals overcome their dental anxiety and nervousness.',
 				gdcnumber:'GDC No: 62314',
-                imgSrc:'images/KarenButton.jpg',
+                imgSrc:'images/staff/KarenButton.jpg',
                 class:'teamMemberPhoto'
                 },			
 				
@@ -46,27 +46,27 @@ var data = {
 				qualification: 'BDS (Lond)',
 				biography:'Jappreet qualified at King\'s Dental Hospital in 2011. His main interests are preventative and cosmetic dentistry and he is also an accredited provider of 6 month smiles orthodontic treatment.',
 				gdcnumber:'GDC No: 211336',
-                imgSrc:'images/JappreetKhatra.jpg',
+                imgSrc:'images/staff/JappreetKhatra.jpg',
                 class:'teamMemberPhoto'
                 },	 
 
 			teamMember7:{
-				name:'Dr Lovepreet Heer ',
+				name:'Dr Arjun Bahia',
 				position:'Foundation Dentist',
-				qualification: 'BDS',
-				biography:'Lovepreet qualified from Barts and the London school of Medicine and Dentistry in 2019.',
+				qualification: '',
+				biography:'',
 				gdcnumber:'',
-                imgSrc:'images/Lovepreet.jpg',
+                imgSrc:'images/staff/ArjunBahia.jpg',
                 class:'teamMemberPhoto'
                 },
 
 			teamMember8:{
-				name:'Dr Fatima Niaza',
+				name:'Dr Ifrah Mohamed',
 				position:'Foundation Dentist',
-				qualification: 'BDS(Hons) (UCLAN) BSc Hons (Lond)',
-				biography:'Fatima qualified from the University of Central Lancashire in 2019. She also has a BSc in Biomedical science from University College London.',
-				gdcnumber:'GDC No: 277942',
-                imgSrc:'images/fatima.jpg',
+				qualification: '',
+				biography:'',
+				gdcnumber:'',
+                imgSrc:'images/staff/IfrahMohamed.jpg',
                 class:'teamMemberPhoto'
                 },
 			
@@ -76,29 +76,70 @@ var data = {
 				qualification: '',
 				biography:'',
 				gdcnumber:'',
-                imgSrc:'images/Swaibah.jpg',
+                imgSrc:'images/staff/Swaibah.jpg',
                 class:'teamMemberPhoto'
-                },
+				},
 				
-			teamMember10:{
+				teamMember10:{
+				name:'Freeha Tanveer',
+				position:'Trainee dental nurse',
+				qualification: '',
+				biography:'',
+				gdcnumber:'',
+				imgSrc:'images/staff/FreehaTanveer.jpg',
+				class:'teamMemberPhoto'
+				},
+	
+			teamMember11:{
 				name:'Marilyn Howlett',
 				position:'Dental Hygenist',
 				qualification: '',
 				biography:'Marilyn qualified at the Royal London Hospital in 1972. She is a highly experienced dental hygienist and is also qualified to treat patients with Dental Implants.',
 				gdcnumber:'GDC No: 970',
-                imgSrc:'images/MarilynHowlett.jpg',
+                imgSrc:'images/staff/MarilynHowlett.jpg',
                 class:'teamMemberPhoto'
                 },
 
-            teamMember11:{
+            teamMember12:{
 				name:'Our Nursing Team',
 				position:'',
 				qualification: '',
 				biography:'Our nurses are highly experienced and are registered with the General Dental Council. They are committed to an ongoing programme of Continuous Professional Development.',
 				gdcnumber:'',
-                imgSrc:'images/NursingTeam.jpg',
+                imgSrc:'images/staff/NursingTeam.jpg',
                 class:'teamMemberPhotoWide'
                 },
+	
+			teamMember13:{
+				name:'Nicki Stevens',
+				position:'Practice Manager',
+				qualification: '',
+				biography:'.',
+				gdcnumber:'',
+                imgSrc:'images/staff/Nicki.jpg',
+                class:'teamMemberPhoto'
+			},
+			
+			teamMember14:{
+				name:'Alice Wojtyra',
+				position:'Reception Stafff',
+				qualification: '',
+				biography:'',
+				gdcnumber:'',
+                imgSrc:'images/staff/AliceWojtyra.jpg',
+                class:'teamMemberPhoto'
+			},
+
+			teamMember15:{
+				name:'Dee',
+				position:'Reception staff &amp; <br>Dental Nurse',
+				qualification: '',
+				biography:'',
+				gdcnumber:'',
+                imgSrc:'images/staff/Dee.jpg',
+                class:'teamMemberPhoto'
+			}
+			
  /*   
             teamMember11:{
 				name:'Our Reception Staff',
@@ -106,40 +147,9 @@ var data = {
 				qualification: '',
 				biography:'Our friendly reception staff will ensure that your appointments and treatments are dealt with promptly and are happy to answer any questions you may have from the minute you arrive. They are highly experienced and committed to an ongoing programme of Continuous Professional Development.',
 				gdcnumber:'',
-                imgSrc:'images/reception.jpg',
+                imgSrc:'images/staff/reception.jpg',
                 class:'teamMemberPhotoWide'               
-			},
-*/
-			
-			teamMember12:{
-				name:'Janet Sharpe',
-				position:'Practice Manager',
-				qualification: '',
-				biography:'Janet started her dental career as a dental nurse and after few years decided to move over to do reception duties, which she very much enjoyed. She was then promoted to practice manager and over the years continued to ensure the smooth running of the Clinic.',
-				gdcnumber:'',
-                imgSrc:'images/JanetSharpe.jpg',
-                class:'teamMemberPhoto'
-			},
-			
-			teamMember13:{
-				name:'Nicki Stevens',
-				position:'Reception staff',
-				qualification: '',
-				biography:'.',
-				gdcnumber:'',
-                imgSrc:'images/Nicki.jpg',
-                class:'teamMemberPhoto'
-			},
-			
-			teamMember14:{
-				name:'Dee',
-				position:'Reception staff &amp; <br>Dental Nurse',
-				qualification: '',
-				biography:'',
-				gdcnumber:'',
-                imgSrc:'images/Dee.jpg',
-                class:'teamMemberPhoto'
 			}
-			
-				
+*/
+						
         }; 

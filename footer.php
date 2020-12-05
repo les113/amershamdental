@@ -136,12 +136,13 @@ $(document).ready(function(){
 	$('.openCovid19').show();
 	$('.covid19Msg').hide();
 
-	// toggle message
 	$('.openCovid19').click(function() {
 		//alert( "Handler for .click() called." );
-
+		
+		// toggle message
 		$('.covid19Msg').toggle(500);
 
+		// change link text
 		var text = $('.openCovid19').text();
 		$('.openCovid19').text(text == "Read More" ? "Close" : "Read More");
 	});
