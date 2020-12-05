@@ -1,9 +1,20 @@
 <div class="row">
 	<div class="offset_2 grid_8"   style="text-align:center;">			
+		<h2 style="line-height:1.2em;">COVID-19 Update 1st December 2020<br/>Amersham Hill Dental Clinic</h2>
 		<div class="covid19Msg">
 			<p>We are open and welcoming our patients to the Surgery.
+			We have been busy ensuring all of our Dental Team have been retrained in new
+			procedures and we have put in place measures to keep patients and staff safe.
+			It will take time before services fully return to normal but patients who need
+			Emergency Treatment will be prioritised.
+			We are now seeing Patients for their routine Examinations and Hygiene
+			appointments. 
+			</p>
 			<p>
 			Due to the guidelines the appointment times will be extended and therefore we will
+			be seeing fewer patients per day, so please be patient with us.
+			Staff will also be wearing masks, face shields and a disposable gown or apron (PPE)
+			depending on the procedure you are having.
 			</p>
 			<h3>If you have a dental emergency, please phone</h3>
 			<h4>01494 526392</h4>
