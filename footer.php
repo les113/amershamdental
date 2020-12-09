@@ -36,8 +36,8 @@
 					-->
 					
 					<h4>Policies</h4>
-					<p><a href="includes/privacy-policy.pdf" target="_blank">Privacy Policy</a><br/>
-					<a href="includes/complaints-policy.pdf" target="_blank">Complaints Policy</a></p>
+					<p><a href="docs/privacy-policy.pdf" target="_blank">Privacy Policy</a><br/>
+					<a href="docs/complaints-policy.pdf" target="_blank">Complaints Policy</a></p>
 				</div>
 			</div>
 		</div>

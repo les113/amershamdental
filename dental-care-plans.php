@@ -37,7 +37,7 @@
 			
 			<h3>Independent Dentistry</h3>
 			<p>This is then name we give to our services for patients who want an improved range of treatment with the comfort and flexibility that independent contract offers. We are of the opinion that our independent dentistry offers the best &#39;value for money&#39; dental service in the High Wycombe area.</p>
-			<p><strong>Please download our independent fees guide <a href="includes/independent-fees.pdf" target="_blank">here</a>.</strong></p>
+			<p><strong>Please download our independent fees guide <a href="docs/independent-fees.pdf" target="_blank">here</a>.</strong></p>
 	
 			<!--
 			<h3>Practice Plan</h3>
@@ -51,7 +51,7 @@
 			<h3>Dental Care Plan</h3>
 			<p>This is an in-house capitation scheme that offers similar benefits to Denplan.
 			For some patients this may be more cost effective. The assessment fee for this is &pound;38.00 and you will then be advised regarding the best way forwards.</p>
-			<p><strong>For more information please <a href="includes/dental-care-plan.pdf" target="_blank">click here</a>.</strong></p>
+			<p><strong>For more information please <a href="docs/dental-care-plan.pdf" target="_blank">click here</a>.</strong></p>
 		</section>
 		
 		<section>			
