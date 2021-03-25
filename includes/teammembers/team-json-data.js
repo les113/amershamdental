@@ -122,7 +122,7 @@ var data = {
 			
 			teamMember14:{
 				name:'Alice Wojtyra',
-				position:'Reception Stafff',
+				position:'Reception Staff',
 				qualification: '',
 				biography:'',
 				gdcnumber:'',

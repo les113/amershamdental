@@ -61,15 +61,15 @@
 			
 			<h6>Band 1</h6>
 			<p>This covers an examination, x-rays, diagnosis, prevention advice, scale and polish if needed and application of fluoride varnish or fissure sealants.</p>
-			<p>The NHS charge for Band 1 is &pound;22.70</p>
+			<p>The NHS charge for Band 1 is &pound;23.80</p>
 			
 			<h6>Band 2</h6>
 			<p>This covers everything listed in Band 1 above, plus any further treatment such as fillings, root canal treatment and tooth extractions.</p>
-			<p>The NHS charge for Band 2 is &pound;62.10</p>
+			<p>The NHS charge for Band 2 is &pound;65.20</p>
 			
 			<h6>Band 3</h6>			
 			<p>This covers everything listed in Bands 1 and 2 above, and any other treatment option which involves laboratory work such as dentures, crowns, bridges.</p>
-			<p>The NHS charge for Band 3 is &pound;269.30</p>
+			<p>The NHS charge for Band 3 is &pound;282.80</p>
 			
 			<p><strong>For more information please refer to the NHS website <a href="http://www.nhs.uk/NHSEngland/AboutNHSservices/dentists/" target="_blank">here</a>.</strong></p>
 		
