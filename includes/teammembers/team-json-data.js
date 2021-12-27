@@ -1,18 +1,9 @@
 //json test data
 var data = {
-            teamMember1:{
-				name:'Dr Max Suleiman',
-				position:'Senior Partner',
-				qualification: 'Phd  BDS (Lond) MSc (Implant Dentistry) MFGDP (UK)',
-				biography:'Max, a Senior Partner at the Clinic, qualified at the Royal Dental Hospital in 1980. He has an MSc and PhD in Implant Dentistry. His practice is restricted to implant dentistry and oral surgery. He is also a Consultant Oral Surgeon at Guy\'s Hospital London.',
-				gdcnumber:'GDC No: 54886',
-                imgSrc:'images/staff/MaxSuleiman.jpg',
-                class:'teamMemberPhoto'
-                },
 				
             teamMember2:{
 				name:'Dr Husein Raghavji',
-				position:'Senior Partner',
+				position:'Principal Dentist',
 				qualification: 'BDS (Ncle)',
 				biography:'Husein, a Senior Partner at the Clinic, qualified at Newcastle Dental Hospital in 1982. His clinical interests are extensive and he has particular interest in endodontics and cosmetic dentistry. He is also an experienced foundation dental trainer and has a certificate in Dental and Medical Education.',
 				gdcnumber:'GDC No: 56603',
@@ -52,7 +43,7 @@ var data = {
 
 			teamMember7:{
 				name:'Dr Arjun Bahia',
-				position:'Foundation Dentist',
+				position:'Associate Dentist',
 				qualification: '',
 				biography:'',
 				gdcnumber:'',
@@ -61,26 +52,36 @@ var data = {
                 },
 
 			teamMember8:{
-				name:'Dr Ifrah Mohamed',
+				name:'Adam Dad',
 				position:'Foundation Dentist',
 				qualification: '',
 				biography:'',
 				gdcnumber:'',
-                imgSrc:'images/staff/IfrahMohamed.jpg',
+                imgSrc:'images/staff/AdamDad.jpg',
                 class:'teamMemberPhoto'
-                },
-			
-			teamMember9:{
-				name:'Suwaibah Ali',
-				position:'Trainee dental nurse',
+			},
+
+			teamMember9: {
+				name: 'Hanyi Chen',
+				position: 'Foundation Dentist',
 				qualification: '',
-				biography:'',
-				gdcnumber:'',
-                imgSrc:'images/staff/Swaibah.jpg',
-                class:'teamMemberPhoto'
-				},
+				biography: '',
+				gdcnumber: '',
+				imgSrc: 'images/staff/HanyiChen.jpg',
+				class: 'teamMemberPhoto'
+			},
+			
+			teamMember10: {
+				name: 'Amarpreet Kaur Grewal',
+				position: 'Foundation Dentist',
+				qualification: '',
+				biography: '',
+				gdcnumber: '',
+				imgSrc: 'images/staff/AmarpreetKaurGrewal.jpg',
+				class: 'teamMemberPhoto'
+			},
 				
-				teamMember10:{
+			teamMember11:{
 				name:'Freeha Tanveer',
 				position:'Trainee dental nurse',
 				qualification: '',
@@ -88,9 +89,19 @@ var data = {
 				gdcnumber:'',
 				imgSrc:'images/staff/FreehaTanveer.jpg',
 				class:'teamMemberPhoto'
-				},
+			},
+
+			teamMember12: {
+				name: 'Carolina Pizzeghello',
+				position: 'Trainee dental nurse',
+				qualification: '',
+				biography: '',
+				gdcnumber: '',
+				imgSrc: 'images/staff/CarolinaPizzeghello.jpg',
+				class: 'teamMemberPhoto'
+			},
 	
-			teamMember11:{
+			teamMember13:{
 				name:'Marilyn Howlett',
 				position:'Dental Hygenist',
 				qualification: '',
@@ -100,7 +111,7 @@ var data = {
                 class:'teamMemberPhoto'
                 },
 
-            teamMember12:{
+            teamMember14:{
 				name:'Our Nursing Team',
 				position:'',
 				qualification: '',
@@ -110,7 +121,7 @@ var data = {
                 class:'teamMemberPhotoWide'
                 },
 	
-			teamMember13:{
+			teamMember15:{
 				name:'Nicki Stevens',
 				position:'Practice Manager',
 				qualification: '',
@@ -120,7 +131,7 @@ var data = {
                 class:'teamMemberPhoto'
 			},
 			
-			teamMember14:{
+			teamMember16:{
 				name:'Alice Wojtyra',
 				position:'Reception Staff',
 				qualification: '',
@@ -130,7 +141,7 @@ var data = {
                 class:'teamMemberPhoto'
 			},
 
-			teamMember15:{
+			teamMember17:{
 				name:'Dee',
 				position:'Reception staff &amp; <br>Dental Nurse',
 				qualification: '',
