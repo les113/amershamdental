@@ -59,9 +59,14 @@
 <section class="row">
 	<div class="grid_6" >
 		<div class="infoBox welcome">
-			<h2><u>Welcome</u></h2>
+			<!-- <h2><u>Welcome</u></h2>
 			<p>Welcome to Amersham Hill Dental Clinic. The practice has been running over a 100 years. It has been run by Max Suleiman since 1992 and together with Husein Raghavji since 1997 and offers our clients the best quality dentistry with an excellent customer service. We are also a referral specialist clinic offering patients dental implants and oral surgery.</p>
-			<a href="about-us.php"><span class="btn">Read more</span></a>
+			<a href="about-us.php"><span class="btn">Read more</span></a> -->
+
+			<h2><u>Announcement</u></h2>
+			<p>It is with great sadness that we have to inform our patients of the passing of our Dear Friend and Colleague Max Suleiman who sadly passed away on Saturday 10th July 2021.</p>
+			<p>It was a pleasure to work with him and a true loss to his family, Friends Colleagues and Patients.</p>
+			<p>He will be remembered for his outstanding achievements in Oral surgery and Dental Implantology and for those he inspired with his Passion, Knowledge, Expertise and Charm.</p>
 		</div>
 	</div>
 	<div class="grid_6">
