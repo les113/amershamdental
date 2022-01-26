@@ -59,10 +59,12 @@
 			<p>One way of replacing missing teeth is with dentures and they can be made according to individual demands and by using the best materials and artistry.</p>
 			<p>Our top of the range implant-dentures can be hard to detect. With a small number of dental implants, dentures can be effectively secured in the mouth, greatly enhancing confidence.</p>
 			
+			<!-- removed jan 2022
 			<h2>Dental Implants</h2>
 			<p>More commonly missing teeth are being replaced with dental implants. Otherwise know as 'screw-in teeth', they replace missing teeth using small titanium inserts into the jawbone, providing a foundation for crowns, bridges and dentures much like a natural tooth root would. Dental implants can be seen as your 'third set of teeth'. </p>			
 			<p>All implant treatments are carried out at the clinic by Max Suleiman. He is also a Consultant Oral Surgeon at Guy's Hospital where he is involved with teaching implant surgery as well as ground breaking research in implant dentistry.</p>	
-			<p>More information is available at <a href="http://www.oral-implants.co.uk" target="_blank">www.oral-implants.co.uk</a>.</p>				
+			<p>More information is available at <a href="http://www.oral-implants.co.uk" target="_blank">www.oral-implants.co.uk</a>.</p>		
+			-->
 
 			<h2>Other treatments</h2>
 			<p>We also offer various additional services including:</p>

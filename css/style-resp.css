@@ -252,8 +252,7 @@ body#contact #menu .contact a
 	.featureBox {min-height:137px;}
 	.appointments {min-height:160px;	padding-top:10px;}
 	.appointments h2{padding-top:10px;}
-	.infoBox {min-height:240px;}
-
+	.infoBox {height: auto;}
 }
 
 /***** Tablet (768px to 959px) *****/
@@ -264,7 +263,7 @@ body#contact #menu .contact a
 	.appointments {min-height:137px;}
 	.appointments h2{font-size:18px;line-height:20px;padding-top:20px;}
 	.appointments span {font-size:12px;}
-	.infoBox {min-height:244px;}
+	.infoBox {height:auto;}
 }
 
 /***** desktop *****/
@@ -279,6 +278,6 @@ body#contact #menu .contact a
 /***** Retina *****/
 @media only screen and (-webkit-min-device-pixel-ratio:1.5) {
 
-.example										{ margin:0; padding:0; }
+	.example { margin:0; padding:0; }
 
 }

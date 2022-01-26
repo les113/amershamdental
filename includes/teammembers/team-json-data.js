@@ -80,18 +80,8 @@ var data = {
 				imgSrc: 'images/staff/AmarpreetKaurGrewal.jpg',
 				class: 'teamMemberPhoto'
 			},
-				
-			teamMember11:{
-				name:'Freeha Tanveer',
-				position:'Trainee dental nurse',
-				qualification: '',
-				biography:'',
-				gdcnumber:'',
-				imgSrc:'images/staff/FreehaTanveer.jpg',
-				class:'teamMemberPhoto'
-			},
 
-			teamMember12: {
+			teamMember11: {
 				name: 'Carolina Pizzeghello',
 				position: 'Trainee dental nurse',
 				qualification: '',
@@ -101,7 +91,7 @@ var data = {
 				class: 'teamMemberPhoto'
 			},
 	
-			teamMember13:{
+			teamMember12:{
 				name:'Marilyn Howlett',
 				position:'Dental Hygenist',
 				qualification: '',
