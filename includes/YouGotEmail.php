@@ -3,6 +3,9 @@
 /* 
 recaptcha 
 https://www.kaplankomputing.com/blog/tutorials/recaptcha-php-demo-tutorial/
+
+google recaptch admin
+https://www.google.com/recaptcha/admin/site/340971030/settings
 */
 	$sender_name = stripslashes($_POST["name"]);
 	$sender_email = stripslashes($_POST["email"]);
@@ -29,7 +32,7 @@ https://www.kaplankomputing.com/blog/tutorials/recaptcha-php-demo-tutorial/
 
 	if ($captcha_success->success==false) {
 		//echo "<p>Sorry, try again</p>";
-		header("Location: http://www.wycombe-dentists.com/formfail.php");
+		header("Location: http://www.amershamhilldental.com/formfail.php");
 		exit;
 
 	} else if ($captcha_success->success==true) {
@@ -97,11 +100,11 @@ $SendCCTo[] = "janet.sharpe@hotmail.com";
 // if you wish to send BCC to some other user, add list by comma separated
 $SendBCCTo[] = "";
 // Following is the subject of email that you would receive
-$EmailFromAddress = "noreply@wycombe-dentists.com";
+$EmailFromAddress = "noreply@amershamhilldental.com";
 // Following is from name for email sent
 $EmailFromName = "";
 // following is the reply address that you wish to have in your send email
-$ReplyToAddress = "noreply@wycombe-dentists.com";
+$ReplyToAddress = "noreply@amershamhilldental.com";
 // Following is the reply name for email sent
 $ReplyToName = "";
 // Set following variable to 1, if you wish to receive email in html format, prefer this.
