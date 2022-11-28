@@ -52,52 +52,52 @@ var data = {
                 },
 
 			teamMember8:{
-				name:'Adam Dad',
+				name:'Dr Shoaib Ali',
 				position:'Foundation Dentist',
 				qualification: '',
 				biography:'',
 				gdcnumber:'',
-                imgSrc:'images/staff/AdamDad.jpg',
+                imgSrc:'images/staff/DrShoaibAli-FoundationDentist.jpg',
                 class:'teamMemberPhoto'
 			},
 
 			teamMember9: {
-				name: 'Hanyi Chen',
+				name: 'Dr Jerry Cheung',
 				position: 'Foundation Dentist',
 				qualification: '',
 				biography: '',
 				gdcnumber: '',
-				imgSrc: 'images/staff/HanyiChen.jpg',
+				imgSrc: 'images/staff/DrJerryCheung-FoundationDentist.jpg',
 				class: 'teamMemberPhoto'
 			},
 			
 			teamMember10: {
-				name: 'Amarpreet Kaur Grewal',
+				name: 'Dr Chloe Poole',
 				position: 'Foundation Dentist',
 				qualification: '',
 				biography: '',
 				gdcnumber: '',
-				imgSrc: 'images/staff/AmarpreetKaurGrewal.jpg',
+				imgSrc: 'images/staff/DrChloePoole-FoundationDentist.jpg',
 				class: 'teamMemberPhoto'
 			},
-
+/*
 			teamMember11: {
-				name: 'Carolina Pizzeghello',
+				name: '',
 				position: 'Trainee dental nurse',
 				qualification: '',
 				biography: '',
 				gdcnumber: '',
-				imgSrc: 'images/staff/CarolinaPizzeghello.jpg',
+				imgSrc: 'images/staff/',
 				class: 'teamMemberPhoto'
 			},
-	
+*/	
 			teamMember12:{
 				name:'Marilyn Howlett',
-				position:'Dental Hygenist',
+				position:'Dental Hygienist',
 				qualification: '',
 				biography:'Marilyn qualified at the Royal London Hospital in 1972. She is a highly experienced dental hygienist and is also qualified to treat patients with Dental Implants.',
 				gdcnumber:'GDC No: 970',
-                imgSrc:'images/staff/MarilynHowlett.jpg',
+                imgSrc:'images/staff/MarilynHowlett-DentalHygienist.jpg',
                 class:'teamMemberPhoto'
                 },
 
@@ -117,27 +117,27 @@ var data = {
 				qualification: '',
 				biography:'.',
 				gdcnumber:'',
-                imgSrc:'images/staff/Nicki.jpg',
+                imgSrc:'images/staff/NickiStevens-PracticeManager.jpg',
                 class:'teamMemberPhoto'
 			},
 			
 			teamMember16:{
-				name:'Alice Wojtyra',
+				name:'Harriet Hansen',
 				position:'Reception Staff',
 				qualification: '',
 				biography:'',
 				gdcnumber:'',
-                imgSrc:'images/staff/AliceWojtyra.jpg',
+                imgSrc:'images/staff/HarrietHansen-Receptionist.jpg',
                 class:'teamMemberPhoto'
 			},
 
 			teamMember17:{
-				name:'Dee',
-				position:'Reception staff &amp; <br>Dental Nurse',
+				name:'Chelsie Savin',
+				position:'Reception staff',
 				qualification: '',
 				biography:'',
 				gdcnumber:'',
-                imgSrc:'images/staff/Dee.jpg',
+                imgSrc:'images/staff/ChelsieSavin-Receptionist.jpg',
                 class:'teamMemberPhoto'
 			}
 			
