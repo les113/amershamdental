@@ -39,7 +39,7 @@
 		</div>			
 	</div>
 	<div class="grid_4 featureBox" >
-		<img src="images/theteam.jpg" alt="The Denatl Team"/>
+		<img src="images/theteam.jpg" alt="The Dental Team"/>
 		<div class="featureTxt">
 		<a href="our-team.php"><span>The Team</span></a>
 		</div>	

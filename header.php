@@ -5,4 +5,4 @@
 
 <div class="rowspace"></div>
 
-<?php include('covid-19.php') ?>			
+<!--<?php include('covid-19.php') ?>-->	

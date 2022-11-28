@@ -73,7 +73,7 @@ https://www.google.com/recaptcha/admin/site/340971030/settings
 // License: LGPL, see LICENSE
 // //////////////////////////////////////////////////
 
-$SendAddress = "ahdc@live.co.uk"; //YOUR EMAIL ADDRESS, where you want to receive the email
+$SendAddress = "reception@amershamhilldental.com"; //YOUR EMAIL ADDRESS, where you want to receive the email
 $mail_subject = "Amersham Hill Dental Center Website Enquiry"; //Subject for email that you get
 
 // Following is the heading that you would receive with this message in your email within the body
@@ -96,7 +96,7 @@ $image_max_width = "1400"; //this validates height of image in case of image upl
 $image_max_height = "1400"; //this validates width of image in case of image upload
 $DeleteUploadFiles = "0"; // Do you wish to delete the uploaded files or wish to keep on server?.If you wish to keep the file set to 1 or set to 0
 // If you wish to send cc to some other email addresses, give here seperated by comma
-$SendCCTo[] = "janet.sharpe@hotmail.com";
+$SendCCTo[] = "";
 // if you wish to send BCC to some other user, add list by comma separated
 $SendBCCTo[] = "";
 // Following is the subject of email that you would receive
