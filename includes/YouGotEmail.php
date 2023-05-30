@@ -1,5 +1,7 @@
 <?php ob_start();
 
+ini_set('display_errors', 1);
+
 /* 
 recaptcha 
 https://www.kaplankomputing.com/blog/tutorials/recaptcha-php-demo-tutorial/
@@ -177,7 +179,8 @@ function validate_email($email)
     {
         global $k , $TableStart, $DataLoop, $TableEnd ;
         $data = str_replace("<HEADING>", "All Global Data", $TableStart);
-        while (list($key, $val) = each($GLOBALS))
+        //while (list($key, $val) = each($GLOBALS))
+		foreach ($GLOBALS as $key => $val)
         {
             $data .= CheckNFormat($key, $val);
         } 
@@ -187,7 +190,8 @@ function validate_email($email)
     {
         global $k , $TableStart, $DataLoop, $TableEnd ;
         $data = str_replace("<HEADING>", "Data Posted From Form", $TableStart);
-        while (list($key, $val) = each($_POST))
+        //while (list($key, $val) = each($_POST))
+		foreach ($_POST as $key => $val)
         {
             $ReplaceVarName = str_replace("<var_name>", $key, $DataLoop); 
             // If data is an array like multiple list box
@@ -212,7 +216,8 @@ function validate_email($email)
     {
         global $k , $TableStart, $DataLoop, $TableEnd ;
         $data = str_replace("<HEADING>", "Get Data of Form", $TableStart);
-        while (list($key, $val) = each($_GET))
+        //while (list($key, $val) = each($_GET))
+		foreach ($_GET as $key => $val)
         {
             $ReplaceVarName = str_replace("<var_name>", $key, $DataLoop); 
             // If data is an array like multiple list box
@@ -237,7 +242,8 @@ function validate_email($email)
     {
         global $k , $TableStart, $DataLoop, $TableEnd ;
         $data = str_replace("<HEADING>", "Cookie Data", $TableStart);
-        while (list($key, $val) = each($_COOKIE))
+        //while (list($key, $val) = each($_COOKIE))
+		foreach ($_COOKIE as $key => $val)
         {
             $ReplaceVarName = str_replace("<var_name>", $key, $DataLoop); 
             // If data is an array like multiple list box
@@ -262,7 +268,8 @@ function validate_email($email)
     {
         global $k , $TableStart, $DataLoop, $TableEnd ;
         $data = str_replace("<HEADING>", "Server Data", $TableStart);
-        while (list($key, $val) = each($_SERVER))
+        //while (list($key, $val) = each($_SERVER))
+		foreach ($GLOBALS as $key => $_SERVER)
         {
             $ReplaceVarName = str_replace("<var_name>", $key, $DataLoop); 
             // If data is an array like multiple list box
@@ -287,7 +294,8 @@ function validate_email($email)
     {
         global $k , $TableStart, $DataLoop, $TableEnd ;
         $data = str_replace("<HEADING>", "Environment Data", $TableStart);
-        while (list($key, $val) = each($_ENV))
+        //while (list($key, $val) = each($_ENV))
+		foreach ($_ENV as $key => $val)
         {
             $ReplaceVarName = str_replace("<var_name>", $key, $DataLoop); 
             // If data is an array like multiple list box
@@ -312,7 +320,8 @@ function validate_email($email)
     function ProcessFiles()
     {
         Global $mail, $tempfolderpath, $DeleteUploadFiles, $UploadedFiles;
-        while (list($key, $val) = each($_FILES))
+        //while (list($key, $val) = each($_FILES))
+		foreach ($_FILES as $key => $val)
         {
             $copypath = $tempfolderpath . $_FILES[$key]["name"];
             if (is_uploaded_file($_FILES[$key]['tmp_name']))
