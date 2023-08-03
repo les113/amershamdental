@@ -1,4 +1,4 @@
-<!-- Start of StatCounter Code for Default Guide
+<!-- Start of StatCounter Code for Default Guide -->
 <script type="text/javascript">
 var sc_project=9999194; 
 var sc_invisible=1; 
