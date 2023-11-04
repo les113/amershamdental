@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8" />
 	<title>Our Team | Amersham Hill Dental Clinic</title>
-	<meta name="description" content="">
+	<!--<meta name="description" content="Principal, Associate Dentists, Foundation Dentists and Dental Staff">-->
 	<?php include('head.php') ?>
 
 <body id="team">
