@@ -76,7 +76,7 @@
 	</div>
 	
 	<div class="grid_12" style="margin-top:20px">	
-			<p><strong>Please don't hesitate to <a href="contact-us.php">contact us</a> if you have any questions regarding any of the treatments. Our staff will be more than happy to answer all your questions.</strong></p>
+			<p><strong>Please don't hesitate to <a href="contact-us">contact us</a> if you have any questions regarding any of the treatments. Our staff will be more than happy to answer all your questions.</strong></p>
 	</div>
 </div>
 

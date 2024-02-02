@@ -1,0 +1,5 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^amershamhilldental.com [NC,OR]
+RewriteCond %{HTTP_HOST} ^www.amershamhilldental.com [NC]
+RewriteRule ^(.*)$ http://root.lamtha2.co.uk/domain_park/ [L,R=302,NC]

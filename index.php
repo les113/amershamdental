@@ -35,13 +35,13 @@
 	<div class="grid_4 featureBox" >
 		<img src="images/treatments.jpg" alt="Dental Treaments Offered"/>
 		<div class="featureTxt">
-		<a href="dental-treatments.php"><span>Treatments</span></a>
+		<a href="dental-treatments"><span>Treatments</span></a>
 		</div>			
 	</div>
 	<div class="grid_4 featureBox" >
 		<img src="images/theteam.jpg" alt="The Dental Team"/>
 		<div class="featureTxt">
-		<a href="our-team.php"><span>The Team</span></a>
+		<a href="our-team"><span>The Team</span></a>
 		</div>	
 	</div>
 	<div class="grid_4" >
@@ -61,7 +61,7 @@
 		<div class="infoBox welcome">
 			<!-- <h2><u>Welcome</u></h2>
 			<p>Welcome to Amersham Hill Dental Clinic. The practice has been running over a 100 years. It has been run by Max Suleiman since 1992 and together with Husein Raghavji since 1997 and offers our clients the best quality dentistry with an excellent customer service. We are also a referral specialist clinic offering patients dental implants and oral surgery.</p>
-			<a href="about-us.php"><span class="btn">Read more</span></a> -->
+			<a href="about-us"><span class="btn">Read more</span></a> -->
 
 			<h2><u>Announcement</u></h2>
 			<p>It is with great sadness that we have to inform our patients of the passing of our Dear Friend and Colleague Max Suleiman who sadly passed away on Saturday 10th July 2021.</p>
@@ -79,7 +79,7 @@
 				<li>Independent/Private</li>
 				<li>NHS</li>
 			</ul>
-			<a href="dental-care-plans.php"><span class="btn">Read more</span></a>
+			<a href="dental-care-plans"><span class="btn">Read more</span></a>
 		</div>
 	</div>
 </section>
