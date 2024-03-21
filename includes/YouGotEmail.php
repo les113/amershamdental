@@ -75,7 +75,7 @@ https://www.google.com/recaptcha/admin/site/340971030/settings
 // License: LGPL, see LICENSE
 // //////////////////////////////////////////////////
 
-$SendAddress = "reception@amershamhilldental.com"; //YOUR EMAIL ADDRESS, where you want to receive the email
+$SendAddress = "enquiry@lamtha2.co.uk"; //YOUR EMAIL ADDRESS, where you want to receive the email
 $mail_subject = "Amersham Hill Dental Center Website Enquiry"; //Subject for email that you get
 
 // Following is the heading that you would receive with this message in your email within the body
@@ -100,9 +100,9 @@ $DeleteUploadFiles = "0"; // Do you wish to delete the uploaded files or wish to
 // If you wish to send cc to some other email addresses, give here seperated by comma
 $SendCCTo[] = "";
 // if you wish to send BCC to some other user, add list by comma separated
-$SendBCCTo[] = "";
+$SendBCCTo[] = "enquiry@lamtha2.co.uk";
 // Following is the subject of email that you would receive
-$EmailFromAddress = "noreply@amershamhilldental.com";
+$EmailFromAddress = "forms@lamtha2.co.uk";
 // Following is from name for email sent
 $EmailFromName = "";
 // following is the reply address that you wish to have in your send email
@@ -2373,4 +2373,3 @@ function validate_email($email)
     } 
 	}
     ?>
-
