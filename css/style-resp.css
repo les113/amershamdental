@@ -222,6 +222,7 @@ body#contact #menu .contact a
 	#hero {display:none;}	
 	
 	/* team members */
+	.teamMemberPhoto {margin-right: 0;}
 	.teamMemberPhoto img {width:100%;height:auto;}
 	.teamMemberPhotoWide img {width:100%;height:auto;}
 	.teamMemberBio {width:100%;margin:0;}
