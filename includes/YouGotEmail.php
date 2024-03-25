@@ -75,7 +75,7 @@ https://www.google.com/recaptcha/admin/site/340971030/settings
 // License: LGPL, see LICENSE
 // //////////////////////////////////////////////////
 
-$SendAddress = "enquiry@lamtha2.co.uk"; //YOUR EMAIL ADDRESS, where you want to receive the email
+$SendAddress = "reception@amershamhilldental.com"; //YOUR EMAIL ADDRESS, where you want to receive the email
 $mail_subject = "Amersham Hill Dental Center Website Enquiry"; //Subject for email that you get
 
 // Following is the heading that you would receive with this message in your email within the body
