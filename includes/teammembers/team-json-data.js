@@ -47,37 +47,37 @@ var data = {
 				qualification: '',
 				biography:'',
 				gdcnumber:'',
-                imgSrc:'images/staff/ArjunBahia.jpg',
+                imgSrc:'images/staff/ArunBahia.jpg',
                 class:'teamMemberPhoto'
                 },
 
 			teamMember8:{
 				name:'Dr Shoaib Ali',
-				position:'Foundation Dentist',
+				position:'Associate Dentist',
 				qualification: '',
 				biography:'',
 				gdcnumber:'',
-                imgSrc:'images/staff/DrShoaibAli-FoundationDentist.jpg',
+                imgSrc:'images/staff/ShoaibAli.jpg',
                 class:'teamMemberPhoto'
 			},
 
 			teamMember9: {
-				name: 'Dr Jerry Cheung',
+				name: 'Dr Nilay Joshi',
 				position: 'Foundation Dentist',
 				qualification: '',
 				biography: '',
 				gdcnumber: '',
-				imgSrc: 'images/staff/DrJerryCheung-FoundationDentist.jpg',
+				imgSrc: 'images/staff/NilayJoshi.jpg',
 				class: 'teamMemberPhoto'
 			},
 			
 			teamMember10: {
-				name: 'Dr Chloe Poole',
+				name: 'Dr Lisa Cheng',
 				position: 'Foundation Dentist',
 				qualification: '',
 				biography: '',
 				gdcnumber: '',
-				imgSrc: 'images/staff/DrChloePoole-FoundationDentist.jpg',
+				imgSrc: 'images/staff/LisaCheng.jpg',
 				class: 'teamMemberPhoto'
 			},
 /*
@@ -97,7 +97,7 @@ var data = {
 				qualification: '',
 				biography:'Marilyn qualified at the Royal London Hospital in 1972. She is a highly experienced dental hygienist and is also qualified to treat patients with Dental Implants.',
 				gdcnumber:'GDC No: 970',
-                imgSrc:'images/staff/MarilynHowlett-DentalHygienist.jpg',
+                imgSrc:'images/staff/MarilynHowlett.jpg',
                 class:'teamMemberPhoto'
                 },
 
@@ -117,7 +117,7 @@ var data = {
 				qualification: '',
 				biography:'.',
 				gdcnumber:'',
-                imgSrc:'images/staff/NickiStevens-PracticeManager.jpg',
+                imgSrc:'images/staff/NickiStevens.jpg',
                 class:'teamMemberPhoto'
 			},
 			
@@ -127,17 +127,17 @@ var data = {
 				qualification: '',
 				biography:'',
 				gdcnumber:'',
-                imgSrc:'images/staff/HarrietHansen-Receptionist.jpg',
+                imgSrc:'images/staff/HarrietHansen.jpg',
                 class:'teamMemberPhoto'
 			},
 
 			teamMember17:{
-				name:'Chelsie Savin',
+				name:'Harley Driffill',
 				position:'Reception staff',
 				qualification: '',
 				biography:'',
 				gdcnumber:'',
-                imgSrc:'images/staff/ChelsieSavin-Receptionist.jpg',
+                imgSrc:'images/staff/HarleyDriffill.jpg',
                 class:'teamMemberPhoto'
 			}
 			

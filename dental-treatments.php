@@ -71,8 +71,10 @@
 			<p><strong>Sportguards</strong><br/>Essential for sport activities and available in a huge variety of colours and designs!<br/>
 			<p><strong>Nightguards</strong><br/>Increasingly used for patients who literally grind their teeth away in response to stress in busy and work loaded lives. They can help to provide relief of symptoms of pain and tension in the teeth, head, neck and shoulders.<br/>
 			<p><strong>Anti Snoring Devices</strong><br/>A custom made anti snoring device offers help to ensure a good quiet nights sleep! The treatment is clinically proven for snoring and consists of a durable, clear acrylic mouthpiece comfortably fitted to wear every night.<br/>
-			<p><strong>Six Months Smiles</strong><br/>Short-term orthodontic treatment is suitable for many minor discrepancies in the appearance of your teeth. Translucent/tooth coloured fixed brace are worn for usually 3-9 months, with adjustment appointments every 4 weeks.<br/>
-		</section>
+			<!-- removed Jul2024
+			<p><strong>Six Months Smiles</strong><br/>Short-term orthodontic treatment is suitable for many minor discrepancies in the appearance of your teeth. Translucent/tooth coloured fixed brace are worn for usually 3-9 months, with adjustment appointments every 4 weeks.<br/>-->
+			<p><strong>ClearCorrect</strong><br/>ClearCorrect aligners are the expert's choice and are custom-made just for you. They are a clear orthodontic aligner. ClearCorrect provide you with cutting edge innovation, technology and the Dentist-developed products you deserve. ClearCorrect brings you a unique, personalised orthodontic experience that is discreet, fast and comfortable.</p>
+			</section>
 	</div>
 	
 	<div class="grid_12" style="margin-top:20px">	
